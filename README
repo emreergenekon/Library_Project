@@ -1,0 +1,31 @@
+Library Management System
+This project is developed using Java and PostgreSQL for a library management system. The project includes entities such as books, authors, categories, publishers, and borrowing transactions. Below are the details of the project and information on how to use it.
+
+Project Structure
+The project is structured as a Maven project. As a Maven project, it automatically manages dependencies and simplifies build processes.
+
+Technologies
+*Java
+*Spring Boot
+*PostgreSQL
+*Entity Classes and Relationships
+
+The project includes the following entity classes:
+
+1- Book: Contains the properties of books.
+2- Author: Contains the properties of authors.
+3- Category: Contains the properties of book categories.
+4- Publisher: Contains the properties of publishers.
+5- BookBorrowing: Tracks the book borrowing transactions.
+
+Database
+The project uses a PostgreSQL database. Each entity class corresponds to a table in the database.
+
+Installation
+
+Follow the steps below to run the project:
+
+Create a PostgreSQL database.
+*Configure the database connection settings in the application.properties file.
+*Run the command mvn clean install in the project root directory to load the dependencies.
+*Run the command mvn spring-boot:run in the project root directory to start the application.
